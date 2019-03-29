@@ -1,6 +1,4 @@
-""" weather app which prints
-	city name,current temperature, min and max temperature of current day
-"""
+""" weather app which print city name,current temperature, min and max temperature of current day"""
 
 import requests
 
