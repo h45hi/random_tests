@@ -1,4 +1,4 @@
-""" weather app which print city name,current temperature, min and max temperature of current day"""
+""" weather app which print city name,current temperature, min and max temperature of current day """
 
 import requests
 
@@ -8,7 +8,7 @@ city = input('enter city name')
 
 api = 'b6907d289e10d714a6e88b30761fae22'
 
-url = api_address+'?appid='+api+'&q='+city
+url = api_address+'?appid='+api+'&q='+city # url format
 
 json_data = requests.get(url).json()
 
